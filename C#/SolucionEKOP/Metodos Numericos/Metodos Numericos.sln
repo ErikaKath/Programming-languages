@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metodos Numericos", "Metodos Numericos\Metodos Numericos.csproj", "{B0C4EB66-A424-40C2-B364-BE1C4BDE41FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C4EB66-A424-40C2-B364-BE1C4BDE41FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C4EB66-A424-40C2-B364-BE1C4BDE41FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C4EB66-A424-40C2-B364-BE1C4BDE41FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C4EB66-A424-40C2-B364-BE1C4BDE41FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2180467A-3AD2-4A4D-B22F-DD4CCD9069AA}
+	EndGlobalSection
+EndGlobal

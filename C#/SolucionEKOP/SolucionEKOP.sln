@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolucionEKOP", "SolucionEKOP\SolucionEKOP.csproj", "{EE33675E-A7B4-4D3D-8960-6365C2C2D873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE33675E-A7B4-4D3D-8960-6365C2C2D873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE33675E-A7B4-4D3D-8960-6365C2C2D873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE33675E-A7B4-4D3D-8960-6365C2C2D873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE33675E-A7B4-4D3D-8960-6365C2C2D873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EE415D-ACE4-40F7-96D9-18C7AC09C7F4}
+	EndGlobalSection
+EndGlobal
