@@ -15,6 +15,11 @@ public class TercerTests extends BaseTest {
 
     SoftAssert softAssert = new SoftAssert();
 
+    @Override
+    public void verifyPage() {
+
+    }
+
     @BeforeMethod
     public void setUp() {
         clsProducto = ClsProductoStep.obtenerproducto("AVENA");

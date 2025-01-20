@@ -16,6 +16,11 @@ public class PrimerTests extends BaseTest {
     private List<ClsMostruo>listMostruo;
     SoftAssert softAssert = new SoftAssert();
 
+    @Override
+    public void verifyPage() {
+
+    }
+
     @BeforeMethod
     public void setUp() {
         listMostruo = ClsMostruoStep.leerListaMostruo();
