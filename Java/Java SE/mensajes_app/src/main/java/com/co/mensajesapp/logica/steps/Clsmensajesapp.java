@@ -9,7 +9,7 @@ public class Clsmensajesapp {
     public static void abrirconnectionBD(){
         System.out.println("Abrir consumir datos a BD");
         ClsConstantesGlobales.consultaSqlQueryMensajes();
-        ConnectionDataBase.consumirDatos(ClsConstantesGlobales.sqlQueryMensajes);
+
 
 
     }
