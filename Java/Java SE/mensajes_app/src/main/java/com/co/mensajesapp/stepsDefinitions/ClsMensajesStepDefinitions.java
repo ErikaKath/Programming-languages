@@ -17,9 +17,9 @@ public class ClsMensajesStepDefinitions {
             //Conexion a BD nombre mensajes_app
             System.out.println("Connection de BD nombre mensajes_app");
             ConnectionDataBase.connectionDataBase("mensajes_app");
-            //Abrir conexion mensajes app
-            System.out.println("Abrir connection para consumir datos");
-            Clsmensajesapp.abrirconnectionBD();
+//            //Abrir conexion mensajes app
+//            System.out.println("Abrir connection para consumir datos. consultas a la BD");
+//            Clsmensajesapp.abrirconnectionBD();
             Scanner sc = new Scanner(System.in);
             int option= 0;
             do{
@@ -35,7 +35,6 @@ public class ClsMensajesStepDefinitions {
 
                 switch (option){
                     case 1:
-
                         ClsMensajesService.crearMensaje();
                         break;
                     case 2:

@@ -14,9 +14,11 @@ import java.util.Map;
  * @version 1.0 2/01/2025
  */
 public class ConnectionDataBase {
-    private static Connection connection = null;
+    //private static Connection connection = null;
+    public static Connection connection = null;
     private static DatabaseMetaData metaData = null;
     private static ResultSet resultSet = null;
+//    public static ResultSet resultSet = null;
     private static Statement stmt = null;
     private static String tipoDato;
 

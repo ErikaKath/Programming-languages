@@ -1,14 +1,17 @@
 package com.co.blassacademy.utils;
 
 import com.co.blassacademy.logica.utils.Logs;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
+import java.util.List;
 
-public class Controller {
+public  class Controller {
     protected WebDriver driver;
 
     @BeforeMethod
@@ -32,7 +35,7 @@ public class Controller {
 
     @AfterMethod
     public void tearDown() {
-        var driver =    new WebDriverProvider().get();
+        var driver =new WebDriverProvider().get();
         Logs.debug("Matando el driver");
         driver.quit();
 
