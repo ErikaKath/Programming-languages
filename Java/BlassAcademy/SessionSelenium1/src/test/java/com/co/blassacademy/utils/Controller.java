@@ -12,32 +12,29 @@ import java.time.Duration;
 import java.util.List;
 
 public  class Controller {
-    protected WebDriver driver;
-
+protected WebDriver driver;
     @BeforeMethod
-    public void setUp() {
-        Logs.debug("Inicializar Controlador WebDriver Chrome");
+    public void masterSetUp() {
+        //inicializar el driver
+        Logs.debug("Open webdriver");
         driver = new ChromeDriver();
 
-        Logs.debug("Maximizando el driver");
+        Logs.debug("maximize webdriver");
         driver.manage().window().maximize();
 
-        Logs.debug("Borrando cookies");
+        Logs.debug("Remove cookies");
         driver.manage().deleteAllCookies();
 
-        Logs.debug("Asignando implicit wait");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        Logs.debug("use implicit wait");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        Logs.debug("Guardando el driver");
         new WebDriverProvider().set(driver);
-
     }
 
     @AfterMethod
-    public void tearDown() {
-        var driver =new WebDriverProvider().get();
-        Logs.debug("Matando el driver");
+    public void masterTearDown() {
+        // finalizar el driver
+        Logs.debug("Quit webdriver");
         driver.quit();
-
     }
 }

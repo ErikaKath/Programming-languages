@@ -3,6 +3,7 @@ package com.co.blassacademy.utils;
 import com.co.blassacademy.models.ClsCredencial;
 
 import java.util.Map;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class ClsDataGiver {
@@ -10,7 +11,7 @@ public class ClsDataGiver {
         final var listaCredencial = ClsExcelReader.obtenerListaCredenciales();
         return listaCredencial
                 .stream()
-                .collect(Collectors.toMap(ClsCredencial::getName, x->x));
+                .collect(Collectors.toMap(ClsCredencial::getName, Function.identity()));
 
     }
     public static ClsCredencial obetenerCredencialesValidas(){

@@ -11,7 +11,7 @@ public class ClsCredencial {
     private String username;
     @ExcelCellName("PASSWORD")
     private String password;
-    @ExcelCellName("MENSAJE")
+    @ExcelCellName("MENSAJE_ERROR")
     private String message;
 
     public String getName() {
@@ -40,9 +40,5 @@ public class ClsCredencial {
 
     public String getMessage() {
         return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
     }
 }

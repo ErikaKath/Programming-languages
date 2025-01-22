@@ -7,7 +7,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.List;
 
-public abstract class BaseTest {
+public abstract class Base {
 
     protected WebElement find(By locator){
         return new WebDriverProvider().get().findElement(locator);
