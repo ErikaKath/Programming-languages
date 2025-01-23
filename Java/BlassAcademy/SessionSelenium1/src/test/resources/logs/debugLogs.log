@@ -1,14 +1,19 @@
-17:54:52.728 DEBUG AUTOMATION - Open webdriver
-17:54:56.426 DEBUG AUTOMATION - maximize webdriver
-17:54:56.687 DEBUG AUTOMATION - Remove cookies
-17:54:56.738 DEBUG AUTOMATION - use implicit wait
-17:54:56.753 INFO  AUTOMATION - surf the page
-17:54:57.567 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:54:57.573 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:54:57.719 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-17:54:58.422 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
-17:54:58.423 INFO  AUTOMATION - Enter of username: locked_out_user
-17:54:58.706 INFO  AUTOMATION - Enter of password: secret_sauce
-17:54:58.918 INFO  AUTOMATION - Click of button login
-17:54:59.115 INFO  AUTOMATION - Checking the message of mistake: Epic sadface: Sorry, this user has been locked out.
-17:54:59.272 DEBUG AUTOMATION - Quit webdriver
+16:42:21.140 DEBUG AUTOMATION - Open webdriver
+16:42:27.499 DEBUG AUTOMATION - maximize webdriver
+16:42:27.569 DEBUG AUTOMATION - Remove cookies
+16:42:27.588 DEBUG AUTOMATION - use implicit wait
+16:42:28.183 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:42:28.199 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:42:28.507 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:42:29.338 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+16:42:29.339 INFO  AUTOMATION - surf the page
+16:42:29.911 INFO  AUTOMATION - Enter of username: standard_user
+16:42:30.159 INFO  AUTOMATION - Enter of password: secret_sauce
+16:42:30.341 INFO  AUTOMATION - Click of button login
+16:42:31.965 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:42:31.969 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:42:31.975 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:42:32.056 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+16:42:32.057 INFO  AUTOMATION - Verificando lista de nombres y precios
+16:42:32.132 INFO  AUTOMATION - Enter of list products: [com.co.blassacademy.models.Clsitems@45f421c, com.co.blassacademy.models.Clsitems@1816e24a, com.co.blassacademy.models.Clsitems@6940f685, com.co.blassacademy.models.Clsitems@47b179d7, com.co.blassacademy.models.Clsitems@39008c9f, com.co.blassacademy.models.Clsitems@162b3d47]
+16:42:32.420 DEBUG AUTOMATION - Quit webdriver
